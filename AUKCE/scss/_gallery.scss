@@ -1,5 +1,5 @@
 .gallery{
-    display: grid;
+    grid: 80px;
     gap: 1em;
     grid-template-columns: 1fr;
     @media (min-width:500px){
@@ -10,10 +10,12 @@
     }
     > div {
       padding: 1em;
+      size: 80px;
       background-color: gray;
       transition: all 250ms ease-in-out;
+      font-size: medium;
       &:hover{
-        z-index: 999;
+        z-index: 100;
         box-shadow: 0 0 0.5em #000;
         transform: scale(1.05s);
         }
@@ -21,6 +23,7 @@
             overflow: hidden;
         }
         img{
+            size-adjust: auto;
             transition: all 250ms ease-in-out;
             width: 25%;
         }

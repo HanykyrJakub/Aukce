@@ -9,7 +9,7 @@ const data = {
     name: "Vesmír",
     desc: "socha představující nekonečnost",
     author: "Jiři Hanyk",
-    images: ["fanart.png"],
+    images: ["space-art.jpg"],
   },
   p003: {
     name: "Slunce",
@@ -23,4 +23,10 @@ const data = {
     author: "Jonas Safranek",
     images: ["OIF.jpg"],
   },
+  p005:{
+    name: "Koniukce Planet",
+    desc: "planety seřazené za sebou",
+    author: " Stilia Londhorm",
+    images:["Konjukce.jpg"],
+  }
 };
